@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/views/home_view.dart';
+import 'package:flutter_application_1/views/count_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner:
           false, // no aparezca el debug banner, atributo del MaterialApp
-      home: HomeView(),
+      home: CounterScreen(),
     );
   }
 }
